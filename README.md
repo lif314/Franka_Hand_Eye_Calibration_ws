@@ -6,13 +6,16 @@ Franka Hand Eye Calibration (Panda or FR3)
     - OS: Ubuntu 20.04
     - Robot: Franka Research 3
 
+- [FR3 Setup](./docs/fr3Setup.md)
+- [Camera Setup](./docs/realsense_camera.md)
+
 ## Install ros packages
 
 ```shell
 cd src
 ```
 
-- Install [vision_visp]
+- Install [vision_visp](https://github.com/lagadic/vision_visp)
 ```shell
 git clone -b neotic-devel https://github.com/lagadic/vision_visp.git
 # OR
